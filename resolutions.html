@@ -8,21 +8,30 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <meta name="description" content="Browse formal resolutions from the Consumer Rights Commission — evidence-based positions on consumer rights issues voted on by verified members worldwide." />
+  <style>
+    .resolution-row h3 a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .resolution-row h3 a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-
   <nav>
-  <a href="index.html" class="nav-logo" style="display:flex; align-items:center; gap:.75rem;">
-    <img src="logo.svg" alt="Logo" height="50" width="50" />
-    <span>Consumer Rights Commission</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="resolutions.html">Resolutions</a></li>
-    <li><a href="articles.html">Articles</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="apply.html">Apply</a></li>
-  </ul>
-</nav>
+    <a href="index.html" class="nav-logo" style="display:flex; align-items:center; gap:.75rem;">
+      <img src="logo.svg" alt="Logo" height="50" width="50" />
+      <span>Consumer Rights Commission</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="resolutions.html" class="active">Resolutions</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="apply.html">Apply</a></li>
+    </ul>
+  </nav>
 
   <div class="ticker-wrap">
     <div class="ticker-inner">
@@ -45,6 +54,10 @@
 
       <div class="resolution-row">
         <div class="resolution-row-body">
+          <p class="resolution-meta" style="margin-bottom:.3rem;">Resolution 001</p>
+          <h3><a href="resolutions/001-right-to-repair.html">On Manufacturer Restrictions to Independent Repair</a></h3>
+          <p>Evidence indicates that hardware manufacturers' warranty policies and parts restrictions result in measurable harm to consumers through increased costs and reduced product longevity.</p>
+          <span class="status-badge status-review">Under Member Review</span>
         </div>
         <div class="resolution-row-meta">2026</div>
       </div>
@@ -56,6 +69,5 @@
   <footer>
     © 2026 Consumer Rights Commission · Independent &amp; Member-Funded · <a href="#">Donate</a>
   </footer>
-
 </body>
 </html>
